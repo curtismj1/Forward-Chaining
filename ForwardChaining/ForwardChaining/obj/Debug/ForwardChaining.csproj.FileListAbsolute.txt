@@ -6,3 +6,11 @@ c:\users\michael curtis\documents\visual studio 2015\Projects\ForwardChaining\Fo
 c:\users\michael curtis\documents\visual studio 2015\Projects\ForwardChaining\ForwardChaining\obj\Debug\ForwardChaining.pdb
 C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\ForwardChaining\ForwardChaining\obj\Debug\ForwardChaining.Properties.Resources.resources
 C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\ForwardChaining\ForwardChaining\obj\Debug\ForwardChaining.csproj.GenerateResource.Cache
+C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\chaining\ForwardChaining\ForwardChaining\bin\Debug\ForwardChaining.exe.config
+C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\chaining\ForwardChaining\ForwardChaining\obj\Debug\ForwardChaining.exe
+C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\chaining\ForwardChaining\ForwardChaining\obj\Debug\ForwardChaining.pdb
+C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\chaining\ForwardChaining\ForwardChaining\bin\Debug\ForwardChaining.exe
+C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\chaining\ForwardChaining\ForwardChaining\bin\Debug\ForwardChaining.pdb
+C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\chaining\ForwardChaining\ForwardChaining\obj\Debug\ForwardChaining.csprojResolveAssemblyReference.cache
+C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\chaining\ForwardChaining\ForwardChaining\obj\Debug\ForwardChaining.Properties.Resources.resources
+C:\Users\Michael Curtis\Documents\Visual Studio 2015\Projects\chaining\ForwardChaining\ForwardChaining\obj\Debug\ForwardChaining.csproj.GenerateResource.Cache

@@ -19,17 +19,18 @@ namespace ForwardChaining
        static bool isTrue(chainStructure myStruct, List<char> known_symbols, Dictionary<char, List<int>> positions)
        {
             //Initialize counts
-            char query = 'g';
+            char query = 'd';
             while (known_symbols.Count != 0)
             {
-                
+
+                if (known_symbols[0] == query)
+                {
+                    return true;
+                }
                 int index = 0;
                 foreach (var proposition in myStruct.clauses)
                 {
-                    if (known_symbols[0] == query)
-                    {
-                        return true;
-                    }
+
                     foreach(var decrement in positions[known_symbols[0]])
                     {
                         myStruct.counts[decrement]--;
@@ -52,15 +53,16 @@ namespace ForwardChaining
         //This one accomplishes the task via looping and deleting things. O(nm) where n is the number of propositions and m is the number of characters in each proposition. 
        static  bool isTrue(chainStructure myStruct, List<char> known_symbols)
         {
-            char query = 'g'; //This is the Character we are searching for to be true
+            char query = 'd'; //This is the Character we are searching for to be true
             while (known_symbols.Count != 0)
             {
-                for(int index = 0; index < myStruct.clauses.Count; index++)
+                if (known_symbols[0] == query)
                 {
-                    if (known_symbols[0] == query)
-                    {
-                        return true;
-                    }
+                    return true;
+                }
+                for (int index = 0; index < myStruct.clauses.Count; index++)
+                {
+
                     myStruct.clauses[index] = myStruct.clauses[index].Where(val => val != known_symbols[0]).ToArray();
                     
                     if (myStruct.clauses[index].Length == 0)
